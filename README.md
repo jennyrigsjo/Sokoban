@@ -1,6 +1,6 @@
 # Sokoban
 
-Lexicon Assignment 6: Sokoban (pushbox) game built with JavaScript
+**Lexicon Assignment 6: Sokoban (pushbox) game built with JavaScript**
 
 You are going to create a simple JavaScript game, based on the game called "Sokoban". 
 
