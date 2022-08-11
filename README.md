@@ -1,5 +1,7 @@
 # Sokoban
 
+Lexicon Assignment 6: Sokoban (pushbox) game built with JavaScript
+
 You are going to create a simple JavaScript game, based on the game called "Sokoban". 
 
 The first task is to create the game board itself. You will be given an array of characters that represents a tile-based map. 
