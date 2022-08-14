@@ -12,7 +12,6 @@
 ******************************************/
 initBoard();
 document.addEventListener("keydown", makeMove);
-var levelComplete = false;
 
 
 
@@ -93,8 +92,8 @@ function makeMove(event) {
 
     updateBoard();
 
-    if (levelComplete)
-    {
+    if (allBoxesInGoal())
+    {   
         let message = document.getElementById("level-complete");
         message.style.display = "block";
         message.innerHTML = "Level complete!";
@@ -195,12 +194,6 @@ function moveBox(playerPosition, direction) {
     {
         moveFromTile(currentPos, "B");
         moveToTile(targetPos, "B");
-
-        if (allBoxesInGoal())
-        {   
-            levelComplete = true;
-        }
-
         return true;
     }
 
